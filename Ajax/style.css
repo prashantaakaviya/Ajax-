@@ -1,0 +1,146 @@
+body{
+   background:conic-gradient(#34a1a1,#11a1a1);
+   /* background-image: url("https://cutewallpaper.org/21/4k-wallpaper-gif/4K-Organic-Lines-Windows-Animated-Wallpaper-GIF.gif") ;
+    background-size: cover;*/
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+    resize: none;
+  }
+.container{
+    width: 35%;
+    height:auto;
+    float : left;
+    margin: 50px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.bx{
+
+    margin: 20px;
+
+}
+
+table{
+    border-radius: 10px;
+
+}
+table td{
+    width: auto;
+}
+table tr{
+    height: auto;
+}
+
+i{
+    color: wheat;
+    margin: 0.01px;
+}
+.bx2{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 50px;
+    border-radius: 10px;
+}
+.delete-btn{
+    height: 35px;
+    width: 38px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+}
+.edit-btn{
+    height: 35px;
+    width: 38px;
+    background-color: blue;
+    color: #fff;
+    border: 0;
+    padding: 4px 10px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#edit-sub{
+    background-color: blue;
+    color: #fff;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#success-message{
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#error-message{
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#model{
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+    align-items: center;
+}
+#model-form{
+    background: #fff;
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: calc(50% - 15%);
+    padding: 20px;
+    border-radius: 5px;
+}
+#model-form h2{
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+#close-btn{
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+#ErrMsg{
+    display: none;
+    color: red;
+}
